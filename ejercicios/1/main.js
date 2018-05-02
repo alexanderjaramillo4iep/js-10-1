@@ -50,4 +50,5 @@ function imprimirCarro2(carro) {
     //modificar la siguiente línea
     console.log(carro.nombre, carro.modelo, carro.peso, carro.color);
 }
-// llamar la función imprimirCarro2
+// llamar la función imprimirCarro2 con un objeto carro diferente al anterior
+
