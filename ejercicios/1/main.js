@@ -1,15 +1,16 @@
+//@ts-check
 /**
+ *************************************************************************** 
  * Función suma
  * Dados dos números n1 y n2 retornar la suma
  */
 function suma (n1, n2) {
     return n1 + n2;
 }
-
 console.log(suma(4,9));
-;
 
 /**
+ *************************************************************************** 
  * Función resta
  * Dados dos números n1 y n2 retornar la resta
  */
@@ -19,6 +20,7 @@ function resta (n1, n2) {
 console.log(resta(4,9));
 
 /**
+ *************************************************************************** 
  * Función multiplicacion (sin tildes al programar)
  * Dados dos números n1 y n2 retornar la multiplicación
  */
@@ -26,6 +28,7 @@ console.log(resta(4,9));
 // imprimir en consola la respuesta de la funcion multiplicar
 
 /**
+ *************************************************************************** 
  * Función imprimirCarro
  * Dado un objeto tipo carro imprimir (no retornar):
  * nombre, modelo, peso, color
@@ -42,6 +45,7 @@ const carro = {
 imprimirCarro(carro);
 
 /**
+ *************************************************************************** 
  * Función imprimirCarro2
  * Dado un objeto tipo carro imprimir (no retornar):
  * el vehículo carro.nombre de color carro.color modelo carro.modelo pesa carro.peso
