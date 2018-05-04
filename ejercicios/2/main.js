@@ -18,13 +18,35 @@ function buscaPalabras(texto, palabra) {
     return false;
   }
 }
-const texto = "hola mundo";
-const palabra = "mundo";
+const texto = "La clase de hoy tiene mucha teoría";
+const palabra = "teoría";
 console.log(
   "el texto '" + texto + "' tiene la palabra '" + palabra,
   buscaPalabras(texto, palabra)
 );
 
 /**
- *
+ ***************************************************************************
+ * Función ultimas5Letras
+ * Dado un texto, retornar las últimas 5 letras que tiene el texto
  */
+function ultimas5Letras(texto) {
+	//completar
+}
+console.log(ultimas5Letras('hola mundo'));
+
+/**
+ ***************************************************************************
+ * Función broma
+ * Dado un texto, retornar el texto reemplazando hola por adios y
+ * concatenar todo con una palabra broma
+ * Ej: 'hola mundo' me retorna 'adios mundo cruel'
+ */
+//Definir la función y llamarla
+
+/**
+ ***************************************************************************
+ * Funcion primeraYUltima
+ * Dado un texto, retornar la primera y última letra concatenadas
+ */
+//Definir función y llamarla
