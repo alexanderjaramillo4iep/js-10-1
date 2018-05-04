@@ -19,3 +19,21 @@ let subcadena = variable.substring(1, 5);
 // tomar una subcadena desde la posición 3 que tenga los 2 siguientes caracteres
 let subcadena2 = variable.substr(3, 2);
 console.log(partida, partida2, partida3, subcadena, subcadena2);
+
+let saludo = "hola mundo";
+let reemplazado = saludo.replace('mundo', 'clase 10-1 media técnica');
+console.log(saludo, reemplazado);
+
+//upper y lower python: variable.upper() y variable.lower()
+let may = saludo.toUpperCase();
+let min = saludo.toLowerCase();
+console.log(may, min);
+
+let palabra2 = "alex";
+let letraConLaQueEmpieza = palabra2.charAt(0);
+let otraForma = palabra2[0];
+console.log(palabra2, letraConLaQueEmpieza, otraForma);
+
+let nombreCompleto = 'Jhon Alexander Jaramillo Muñoz';
+let nombrePartido = nombreCompleto.split(' ');
+console.log(nombrePartido, nombrePartido[2]);
